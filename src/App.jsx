@@ -8,6 +8,25 @@ import Sidebar from "./components/Sidebar";
 import ChatApplication from "./chatApp";
 import MessageData from "./message.json";
 
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBMfSoVB45z-Lkx1HLxZ3IqaGfnGbHiMVk",
+  authDomain: "chat-application-28e72.firebaseapp.com",
+  projectId: "chat-application-28e72",
+  storageBucket: "chat-application-28e72.appspot.com",
+  messagingSenderId: "221168695195",
+  appId: "1:221168695195:web:fd29f60b4246d9b644133e"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 function App() {
   return (
     <Container maxWidth="xl" style={{ padding: 0 }}>
