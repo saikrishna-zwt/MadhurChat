@@ -1,0 +1,42 @@
+.cardsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  border-bottom: 1px solid #eaeff4;
+  cursor: pointer;
+}
+
+.image3 {
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.sectioninfo {
+  flex-grow: 1; /* Allow info section to grow and take remaining space */
+}
+
+.name {
+  color: #2a3547;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.away {
+  color: #7c8fac;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  margin-left: 10px; /* Spacing between icons */
+}

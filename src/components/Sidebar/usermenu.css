@@ -1,0 +1,45 @@
+.boxsection {
+  display: flex;
+  margin-top: 61px;
+  overflow-x: auto;
+}
+.recent {
+  color: #7c8fac;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: -0.14px;
+}
+.usersection {
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.gg-chevron-down {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 22px;
+  height: 22px;
+  border: 2px solid transparent;
+  border-radius: 100px;
+}
+.gg-chevron-down::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  border-color: #828282;
+  transform: rotate(45deg);
+  left: 4px;
+  top: 2px;
+}

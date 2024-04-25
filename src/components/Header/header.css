@@ -1,0 +1,51 @@
+/* header.css */
+
+.header {
+  width: 100%;
+  height: 121px;
+  border: 1px solid #ebf3fe;
+  border-radius: 12px;
+  background-color: #ecf2ff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.header > div {
+  flex-grow: 1;
+  height: 100%;
+  padding: 30px;
+}
+
+.app-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dashdiv {
+  display: flex;
+  gap: 10px;
+  color: #7c8fac;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.chat {
+  color: #333b54;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+.image img {
+  width: 250px;
+  height: 250px;
+}

@@ -1,0 +1,60 @@
+{
+  "userMeta": {
+    "id": 1,
+    "name": "Michell Flintoff",
+    "avatar": "",
+    "about": "Marketing Director"
+  },
+  "allUsers": [
+    {
+      "id": 2,
+      "name": "Michell Flintoff",
+      "avatar": "",
+      "status": "online",
+      "lastMessageConfig": {
+        "message": "Yesterdy was great",
+        "sender": "you"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bianca Anderson",
+      "avatar": "",
+      "status": "busy",
+      "lastMessageConfig": {
+        "message": "Nice looking dress you",
+        "sender": ""
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "text": "Hello!",
+      "sender": "2",
+      "createAt": ""
+    },
+    {
+      "id": 2,
+      "text": "Hi there!",
+      "sender": "2",
+      "createAt": ""
+
+    },
+
+    {
+      "id": 3,
+      "text": "Hello there",
+      "sender": "3",
+      "createAt": ""
+
+    },
+    {
+      "id": 4,
+      "text": "Hello how are you",
+      "sender": "1",
+      "createAt": ""
+
+    }
+  ]
+}
